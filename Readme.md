@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🚪✨ Cửa thông minh dùng ESP32 và Blynk ✨🚪</h1>
+  <h1>🚪✨ Hệ thống kiểm soát ra vào ✨🚪</h1>
   <p>
     <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
     <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-Raspberry-red?style=for-the-badge&logo=espressif&logoColor=white" alt="Raspberry Badge">
