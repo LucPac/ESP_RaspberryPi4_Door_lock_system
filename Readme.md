@@ -54,7 +54,7 @@ To deploy this project, you need the following software and hardware components:
 * Install VS Code and PlatformIO IDE Extension
 * Clone or download the project
     ```bash
-    git clone https://github.com/your-username/ESP_RaspberryPi4_Door_clock_system.git
+    git clone https://github.com/your-username/ESP_RaspberryPi4_Door_lock_system.git
     ```
 * Open the project in VS Code with PlatformIO
 * Configure Blynk and WiFi information (see section below)
@@ -101,7 +101,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Your WiFi password
 * Set up to receive notifications when the door opens and when incorrect password is entered too many times.
   
 **door_warning**: Receive notification when incorrect password is entered too many times.  
-**infor_log**: Receive notification when the door opens and when a stranger stands in front of the door for too long.
+**infor_log**: Receive notification when the door opens and when a stranger stands in front of the door for too long. 
 
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
@@ -109,12 +109,17 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Your WiFi password
 ## 🚩 Actual Product  
 
 * PCB
+![Image](https://github.com/user-attachments/assets/269df91b-5e3a-450e-b532-fb00e08704b2)
 
+![Image](https://github.com/user-attachments/assets/50472e05-eca9-4d9c-98fe-9d993f899775)
 
 * Product Images  
-   
+![Image](https://github.com/user-attachments/assets/88b924fd-abc2-44f7-b6f4-481f6d430209)
 
-* Product Demo Video  
+![Image](https://github.com/user-attachments/assets/fd5854f6-4b77-405f-87bb-b847e87cf995) ![Image](https://github.com/user-attachments/assets/3d269879-631f-4f1b-ac46-a107465c9e8b)
+
+* Product Demo Video
+[![Image](https://github.com/user-attachments/assets/55edb567-d26a-446f-bcf1-1f8b7fd6939a)](https://youtu.be/wT6ALkm0E_8)
 
 
 <br>
