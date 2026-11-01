@@ -3,7 +3,7 @@ import cv2
 import os
 
 #cam = cv2.VideoCapture(0)
-url = "http://192.168.1.100"
+url = "http://esp32cam.local/"
 cam = cv2.VideoCapture(url)
 cam.set(3, 640) # set video width
 cam.set(4, 480) # set video height
@@ -32,7 +32,7 @@ while(True):
         # Save the captured image into the datasets folder
         cv2.imwrite("dataset/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
 
-        cv2.imshow('image', img)
+    cv2.imshow('image', img)
 
     k = cv2.waitKey(100) & 0xff # Press 'ESC' for exiting video
     if k == 27:
