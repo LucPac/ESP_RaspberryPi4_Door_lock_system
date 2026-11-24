@@ -1,14 +1,5 @@
 <div align="center">
-  <h1>🚪✨ Smart Door Access Control System ✨🚪</h1>
-  <p>
-    <img src="https://img.shields.io/badge/Microcontroller-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
-    <img src="https://img.shields.io/badge/Microcontroller-Raspberry-red?style=for-the-badge&logo=espressif&logoColor=white" alt="Raspberry Badge">
-    <img src="https://img.shields.io/badge/Platform-Blynk-brightgreen?style=for-the-badge&logo=blynk&logoColor=white" alt="Blynk Badge">
-    <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
-    <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="Python Badge">
-  </p>
-
-  ---
+  <h1>Smart Door Access Control System</h1>
 
   <p>
     <a href="#🚀-overview">Overview</a> •
@@ -22,7 +13,7 @@
 
 <br>
 
-## 🚀 Overview
+## Overview
 
 Welcome to the **`ESP32_Smart_door`** repository!
 
@@ -30,7 +21,7 @@ This project provides a complete solution for building a smart door system that 
 
 <br>
 
-## 🛠️ Installation and Usage Guide
+## Installation and Usage Guide
 
 To deploy this project, you need the following software and hardware components:
 
@@ -64,7 +55,7 @@ To deploy this project, you need the following software and hardware components:
 
 <br>
 
-## ⚙️ Blynk Configuration
+## Blynk Configuration
 
 To make the project work, you need to configure your Blynk account and project.
 
@@ -95,7 +86,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Your WiFi password
 **Control Door**: Used to control door opening/closing.  
 **Control Pass**: Used to enable or disable password entry.
 
-![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
+![Image](assets/img/setup_data.png)
 
 ### 4. Set Up Events & Notifications in Blynk
 * Set up to receive notifications when the door opens and when incorrect password is entered too many times.
@@ -103,35 +94,28 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Your WiFi password
 **door_warning**: Receive notification when incorrect password is entered too many times.  
 **infor_log**: Receive notification when the door opens and when a stranger stands in front of the door for too long. 
 
-![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
+![Image](assets/img/setup_event.png)
 <br>
 
-## 🚩 Actual Product  
+## Actual Product  
 
 PCB
-![Image](https://github.com/user-attachments/assets/269df91b-5e3a-450e-b532-fb00e08704b2)
+![Image](assets/img/PCB_1.png)
 
-![Image](https://github.com/user-attachments/assets/50472e05-eca9-4d9c-98fe-9d993f899775)
+![Image](assets/img/PCB_2.png)
 
 Product Images  
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/88b924fd-abc2-44f7-b6f4-481f6d430209" />
+  <img src="assets/img/Product-Images_1.png" />
   <br/><br/>
-  <img src="https://github.com/user-attachments/assets/fd5854f6-4b77-405f-87bb-b847e87cf995" />
+  <img src="assets/img/Product-Images_2.png" />
   <br/><br/>
-  <img src="https://github.com/user-attachments/assets/3d269879-631f-4f1b-ac46-a107465c9e8b" />
+  <img src="assets/img/Product-Images_3.png" />
 </div>
 
 Product Demo Video
-[![Image](https://github.com/user-attachments/assets/55edb567-d26a-446f-bcf1-1f8b7fd6939a)](https://youtu.be/wT6ALkm0E_8)
+[![Image](assets/img/thumbnail_video.png)](assets/video/ESP-RaspberryPi4-Door-lock-system.mp4)
 
 
 <br>
-
----
-
-<div align="center">
-  <br>
-  <p>Thank you for visiting! I hope this repo is useful for your learning and research. 😊</p>
-  </div>
